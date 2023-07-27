@@ -1,0 +1,423 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+.button {
+  padding: 5px 10px;
+  background-color: white;
+  border-radius: 6px;
+  color: black;
+  margin: 5px 0;
+  transition: background-color 0.3s;
+}
+
+nav {
+  background-color: bisque;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 10px;
+}
+nav ul li img {
+  width: 30px;
+}
+nav ul li a {
+  text-decoration: solid;
+  color: black;
+  display: inline-block;
+}
+nav ul li a:hover {
+  color: bisque;
+}
+nav img.nav-logo {
+  width: 90px;
+}
+@media (min-width: 280px) and (max-width: 340px) {
+  nav img.nav-logo {
+    width: 90px;
+  }
+}
+
+.nav-logo {
+  width: 70px;
+}
+
+nav {
+  background-color: bisque;
+  padding: auto;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  left: 0;
+  top: 0;
+  border: solid 2px black;
+}
+
+* {
+  font-family: "Bebas Neue";
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: solid !important;
+  color: black;
+}
+
+h1 {
+  color: black;
+  font-size: 2em;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+body {
+  background-color: bisque !important;
+  background-size: cover;
+  background-attachment: fixed;
+  backdrop-filter: blur(10px);
+  overflow-x: hidden;
+}
+
+header img {
+  width: 100%;
+}
+
+.footer {
+  height: 150px;
+  margin-top: 60px;
+  background-color: brown;
+}
+.footer div img {
+  width: 30px;
+  margin: 10px;
+  color: white;
+}
+.footer div svg {
+  color: white;
+}
+.footer div ul li a {
+  display: flex;
+  text-decoration: solid;
+  color: white;
+}
+.footer div ul li a:hover {
+  color: black;
+}
+
+.footer-logo {
+  width: 100px;
+}
+
+.text-subline {
+  text-decoration: underline;
+}
+
+.text-bottom {
+  text-align: bottom;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-dark {
+  color: rgb(0, 0, 0);
+}
+
+.text-white {
+  color: rgb(255, 255, 255);
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.nosotros {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.top {
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  color: white !important;
+  text-decoration: solid;
+  text-decoration: underline;
+}
+
+main section div h3 {
+  color: black;
+  font-size: 2em;
+  text-decoration: none;
+  text-align: center;
+}
+main section img {
+  width: 100%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "c1 c2" "c3 c4" "c5 c6" "c7 c7";
+}
+
+.caja.c1 {
+  margin-right: 20px;
+}
+
+.caja.c2 {
+  margin-left: 20px;
+}
+
+.caja.c3 {
+  grid-area: c3;
+}
+
+.caja.c4 {
+  grid-area: c4;
+}
+
+.caja.c5 {
+  grid-area: c5;
+}
+
+.caja.c6 {
+  grid-area: c6;
+}
+
+.caja.c7 {
+  grid-area: c7;
+}
+
+.container {
+  background-color: rgb(165, 42, 42);
+  width: 95%;
+  height: 95%;
+  margin: 3%;
+  padding: 3%;
+  border: solid 4px black;
+}
+.container .caja {
+  width: 90%;
+  height: auto;
+  margin: 3px auto;
+  padding: 3%;
+  border: solid 2px black;
+}
+
+.form-container {
+  width: 25%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  background-color: white;
+}
+
+.botonera img {
+  width: 80px;
+  flex-direction: column;
+  text-align: center;
+}
+.botonera ul li img {
+  width: 30px;
+}
+
+.tienda {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+  align-items: stretch;
+  padding: 20px;
+}
+.tienda section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.tienda section img {
+  width: 100%;
+  object-fit: cover;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.tienda section figcaption {
+  margin-top: 10px;
+  font-size: 1em;
+  letter-spacing: 0.5px;
+}
+.tienda section button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: brown;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.tienda section button:hover {
+  background-color: #d18484;
+}
+
+nav img {
+  width: 90px;
+}
+
+header img {
+  width: 100%;
+  height: auto;
+}
+
+body header div form button svg {
+  width: 20px;
+  height: 20px;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.product-card img {
+  width: 70%;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  border: solid 2px rgb(0, 0, 0);
+}
+.product-card figcaption {
+  font-size: 1.5em;
+}
+.product-card form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid brown;
+  border-radius: 5px;
+}
+.product-card button {
+  padding: 5px 10px;
+  background-color: white;
+  border-radius: 6px;
+  color: black;
+  margin: 5px 0;
+}
+.product-card button:hover {
+  background-color: rgb(145, 93, 93);
+}
+
+.box-top {
+  text-align: center;
+  background-color: brown;
+}
+.box-top a {
+  color: white;
+  letter-spacing: 5px;
+}
+
+.prod1,
+.prod2,
+.prod3,
+.prod4,
+.prod5,
+.prod6 {
+  text-align: right;
+}
+
+@media (width < 765px) {
+  nav img {
+    text-align: center;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+  nav ul li {
+    margin: 10px 0;
+  }
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .product-card button {
+    width: 50%;
+  }
+  .tienda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .tienda section {
+    width: 100%;
+    max-width: 90%;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .tienda section button {
+    width: 70%;
+  }
+  footer {
+    font-size: 1.2em;
+  }
+  .caja.c1 form {
+    flex-direction: column;
+    text-align: center;
+  }
+  .caja.c2 > div iframe {
+    width: 100%;
+    max-width: none;
+  }
+  .caja.c1,
+  .caja.c2 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 765px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "c1 c2" "c3 c4" "c5 c6" "c7 c7";
+  }
+  .caja.c1,
+  .caja.c2 {
+    margin: 20px 20px;
+    padding: auto;
+  }
+  .tienda section {
+    margin: 20px 20px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,80 @@
+@media (width < 765px) {
+    nav {
+        img {
+            text-align: center;
+        }
+    }
+    nav {
+        ul {
+            flex-direction: column;
+        }
+    }
+    nav {
+        ul {
+            li {
+                margin: 10px 0;
+            }
+        }
+    }
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .product-card button {
+        width: 50%;
+    }
+    .tienda {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .tienda {
+        section {
+            width: 100%;
+            max-width: 90%;
+            margin-bottom: 20px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    .tienda {
+        section {
+            button {
+                width: 70%;
+            }
+        }
+    }
+    footer {
+        font-size: 1.2em;
+    }
+    .caja.c1 form {
+        flex-direction: column;
+        text-align: center;
+    }
+    .caja.c2>div iframe {
+        width: 100%;
+        max-width: none;
+    }
+    .caja.c1,
+    .caja.c2 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 765px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas: "c1 c2" "c3 c4" "c5 c6" "c7 c7";
+    }
+    .caja.c1,
+    .caja.c2 {
+        margin: 20px 20px;
+        padding: auto;
+    }
+    .tienda section {
+        margin: 20px 20px;
+    }
+}

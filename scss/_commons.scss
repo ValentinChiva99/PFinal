@@ -1,0 +1,209 @@
+// selectores comunes
+* {
+    font-family: $mainfont;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: solid !important;
+    color: $keycolor;
+}
+
+h1 {
+    color: $keycolor;
+    font-size: $textlg;
+}
+
+p {
+    font-size: $textmd;
+    line-height: $textmid;
+}
+
+body {
+    background-color: $mainColor !important;
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(10px);
+    overflow-x: hidden;
+}
+
+header {
+    img {
+        width: 100%;
+    }
+}
+
+.footer {
+    height: 150px;
+    margin-top: 60px;
+    background-color: $secondaryColor;
+    div {
+        img {
+            width: 30px;
+            margin: 10px;
+            color: $white;
+        }
+        svg {
+            color: $white;
+        }
+        ul {
+            li {
+                a {
+                    display: flex;
+                    text-decoration: solid;
+                    color: $white;
+                    &:hover {
+                        color: $keycolor;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.footer-logo {
+    width: 100px;
+}
+
+.text-subline {
+    text-decoration: underline;
+}
+
+.text-bottom {
+    text-align: bottom;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-dark {
+    color: rgb(0, 0, 0);
+}
+
+.text-white {
+    color: rgb(255, 255, 255);
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.nosotros {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.top {
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    color: white !important;
+    text-decoration: solid;
+    text-decoration: underline;
+}
+
+main {
+    section {
+        div {
+            h3 {
+                color: $keycolor;
+                font-size: $textlg;
+                text-decoration: none;
+                text-align: center;
+            }
+        }
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "c1 c2" "c3 c4" "c5 c6" "c7 c7";
+}
+
+.caja.c1 {
+    margin-right: 20px;
+}
+
+.caja.c2 {
+    margin-left: 20px;
+}
+
+.caja.c3 {
+    grid-area: c3;
+}
+
+.caja.c4 {
+    grid-area: c4;
+}
+
+.caja.c5 {
+    grid-area: c5;
+}
+
+.caja.c6 {
+    grid-area: c6;
+}
+
+.caja.c7 {
+    grid-area: c7;
+}
+
+.container {
+    background-color: rgb(165, 42, 42);
+    width: 95%;
+    height: 95%;
+    margin: 3%;
+    padding: 3%;
+    border: solid 4px black;
+    .caja {
+        width: 90%;
+        height: auto;
+        margin: 3px auto;
+        padding: 3%;
+        border: solid 2px black;
+    }
+}
+
+.form-container {
+    width: 25%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: $white;
+}
+
+// menu hamburguesa
+.botonera {
+    img {
+        width: 80px;
+        flex-direction: column;
+        text-align: center;
+    }
+    ul {
+        li {
+            img {
+                width: 30px;
+            }
+        }
+    }
+}
+
+// menu hamburguesa
