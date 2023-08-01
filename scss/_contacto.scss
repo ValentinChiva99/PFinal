@@ -1,0 +1,38 @@
+body {
+    background-color: $white;
+    .navbar {
+        border-radius: 0;
+    }
+}
+
+main {
+    form {
+        label {
+            font-weight: bold;
+            color: $white;
+            font-size: large;
+            letter-spacing: 1px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid $keycolor;
+            border-radius: 4px;
+        }
+        input[type="reset"],
+        input[type="submit"] {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: $white;
+            border: 1px solid $keycolor;
+            border-radius: 4px;
+            color: $keycolor;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0
+        }
+    }
+}

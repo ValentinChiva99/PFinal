@@ -85,11 +85,11 @@ header {
 }
 
 .text-dark {
-    color: rgb(0, 0, 0);
+    color: $keycolor;
 }
 
 .text-white {
-    color: rgb(255, 255, 255);
+    color: $white;
 }
 
 .d-inline-block {
@@ -108,7 +108,7 @@ header {
 }
 
 h3 {
-    color: white !important;
+    color: $white !important;
     text-decoration: solid;
     text-decoration: underline;
 }
@@ -165,18 +165,19 @@ main {
 }
 
 .container {
-    background-color: rgb(165, 42, 42);
+    background-color: $secondaryColor;
+    text-align: center;
     width: 95%;
     height: 95%;
     margin: 3%;
     padding: 3%;
-    border: solid 4px black;
+    border: solid 4px $keycolor;
     .caja {
         width: 90%;
         height: auto;
         margin: 3px auto;
         padding: 3%;
-        border: solid 2px black;
+        border: solid 2px $keycolor;
     }
 }
 
