@@ -54,10 +54,10 @@ Las páginas que son responsives son INDEX, CAMISETAS, PROMOS, NOSOTROS y CONTAC
 Lenguajes
 HTML CSS
 
-**Frameworks:**:
+**Frameworks:**
 SASS BOOTSTRAP
 
-**Sistema de control de versiones:**:
+**Sistema de control de versiones:**
 GITHUB PAGES GITHUB
 
 ***Links***
