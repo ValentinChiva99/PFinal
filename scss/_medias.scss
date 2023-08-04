@@ -44,8 +44,18 @@
             }
         }
     }
-    footer {
-        font-size: 1.2em;
+    .footer {
+        font-size: 1em;
+        .social-icons {
+            margin-bottom: 10px;
+        }
+        .footer-links {
+            ul {
+                li {
+                    margin-right: 10px;
+                }
+            }
+        }
     }
     .caja.c1 form {
         flex-direction: column;
