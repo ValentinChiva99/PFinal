@@ -62,7 +62,7 @@ GITHUB PAGES GITHUB
 
 ***Links***
 
-***Dejo el link del deployment de GitHub Pages***: https://valentinchiva99.github.io/CamisetasProyectoFinal/
+***Dejo el link del deployment de GitHub Pages***: https://valentinchiva99.github.io/PFinal/
 
 ***Deployment de Netlify***: https://camisetas-retro-shop.netlify.app
 
