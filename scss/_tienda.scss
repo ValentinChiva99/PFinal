@@ -59,6 +59,11 @@ body {
     header {
         div {
             form {
+                div {
+                    label {
+                        @include labels (bold, $keycolor, large, 1px, start);
+                    }
+                }
                 button {
                     svg {
                         width: 20px;
@@ -79,7 +84,7 @@ body {
         width: 70%;
         margin-bottom: 5px;
         margin-top: 10px;
-        border: solid 2px rgb(0, 0, 0);
+        border: solid 2px $keycolor;
     }
     figcaption {
         font-size: $textmid;

@@ -1,34 +1,8 @@
-// extends
-// .button {
-//     width: 300px;
-//     height: 30px;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     padding: 4px 6px;
-//     background-color: $mainColor;
-// }
-// .button.circle {
-//     @extend .button-gral;
-//     border-radius: 4px !important;
-// }
-// 
-// 
-// 
-// 
 // mixins
-// @mixin textos ($size, $color, $line, $padding) {
-//     font-size: $size;
-//     color: $color;
-//     line-height: $line;
-//     padding: $padding;
-//     font-family: $mainfont;
-// }
-// p {
-//     @include textos(1.1em,red,underline,4px)
-// }
-// 
-// 
-// 
-// 
-// maps
+@mixin labels ($font-weight, $color, $font-size, $letter-spacing, $text-align) {
+    font-weight: $font-weight;
+    color: $color;
+    font-size: $font-size;
+    letter-spacing: $letter-spacing;
+    text-align: $text-align;
+}

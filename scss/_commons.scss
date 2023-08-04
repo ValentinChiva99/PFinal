@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    text-decoration: solid !important;
+    text-decoration: solid none !important;
     color: $keycolor;
 }
 
@@ -60,6 +60,10 @@ header {
     }
 }
 
+.outdecoration {
+    text-decoration: none !important;
+}
+
 .footer-logo {
     width: 100px;
 }
@@ -96,6 +100,16 @@ header {
     display: inline-block;
 }
 
+.active {
+    text-decoration: solid;
+    font-size: x-large;
+}
+
+.activenow {
+    text-decoration: solid;
+    color: $keycolor;
+}
+
 .nosotros {
     display: flex;
     flex-direction: row;
@@ -117,10 +131,12 @@ main {
     section {
         div {
             h3 {
-                color: $keycolor;
-                font-size: $textlg;
-                text-decoration: none;
-                text-align: center;
+                a {
+                    color: $keycolor;
+                    font-size: $textlg;
+                    text-decoration: none;
+                    text-align: center;
+                }
             }
         }
         img {
@@ -167,17 +183,23 @@ main {
 .container {
     background-color: $secondaryColor;
     text-align: center;
-    width: 95%;
-    height: 95%;
-    margin: 3%;
-    padding: 3%;
+    margin: 50px auto auto auto;
+    padding: 30px;
     border: solid 4px $keycolor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     .caja {
         width: 90%;
         height: auto;
-        margin: 3px auto;
+        margin: 10px auto;
         padding: 3%;
         border: solid 2px $keycolor;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 

@@ -8,10 +8,7 @@ body {
 main {
     form {
         label {
-            font-weight: bold;
-            color: $white;
-            font-size: large;
-            letter-spacing: 1px;
+            @include labels (bold, $keycolor, large, 1px, start);
         }
         input[type="text"],
         input[type="email"],
