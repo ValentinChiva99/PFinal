@@ -12,7 +12,7 @@
 
 **INICIO DEL PROYECTO**
 
-Wireframe/Navar
+Wireframe/Navar:
 ![wireframe0](https://github.com/ValentinChiva99/CamisetasProyectoFinal/assets/84089905/90525dd2-ca9d-4a2e-8935-114a29c644f0)
 
 
@@ -25,7 +25,7 @@ Wireframe/Navar
 
 
 
-Para mobile agregué un menú desplegable 
+Para mobile agregué un menú desplegable:
 ![menuHam1](https://github.com/ValentinChiva99/CamisetasProyectoFinal/assets/84089905/b0aa3f49-7740-471b-8154-16c0ea53edd3)
 
 ![menuHam2](https://github.com/ValentinChiva99/CamisetasProyectoFinal/assets/84089905/9057d659-4da2-4b81-9ff7-ce84f97ef5d4)
@@ -42,7 +42,7 @@ El contenido en la tienda:
 
 
 
-Responsive
+Responsive:
 Las páginas que son responsives son INDEX, CAMISETAS, PROMOS, NOSOTROS y CONTACTO. Los botones que se encuentran en el sitio como por ejemplo para ver un producto, se encuentran linkeados a un HTML que dirije hacia una página de ERROR 404.
 
 ![image](https://github.com/ValentinChiva99/CamisetasProyectoFinal/assets/84089905/888dd824-49de-4572-957b-788e4ab6818f)
@@ -50,14 +50,14 @@ Las páginas que son responsives son INDEX, CAMISETAS, PROMOS, NOSOTROS y CONTAC
 
 
 
-**Lenguajes y tecnologías**
+**Lenguajes y tecnologías**:
 Lenguajes
 HTML CSS
 
-**Frameworks:**
+**Frameworks:**:
 SASS BOOTSTRAP
 
-**Sistema de control de versiones:**
+**Sistema de control de versiones:**:
 GITHUB PAGES GITHUB
 
 ***Links***
